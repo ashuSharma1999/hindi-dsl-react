@@ -48,7 +48,5 @@ VedReact is ideal for:
 - 👩‍💻 Beginners comfortable in Hindi
 - 🇮🇳 Developers interested in regional tech innovation
 
----
 
-## 📂 Folder Structure
 
