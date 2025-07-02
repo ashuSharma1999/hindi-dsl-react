@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# 🪔 VedReact — React in Hindi DSL 🇮🇳
+
+**VedReact** is a Hindi Domain-Specific Language (DSL) built on top of React.js. It enables developers to write frontend components using Hindi syntax, variables, and JSX — bringing cultural expression and inclusivity to modern web development.
+
+---
+
+## 🔍 Preview
+
+### ✨ Code in Hindi `.ved` Format
+
+![image](https://github.com/user-attachments/assets/d7130d4f-8116-4dfb-868c-b2b0dcf4421e)
+
+
+### 🎨 UI Output using Material UI
+
+![Screenshot 2025-07-02 143549](https://github.com/user-attachments/assets/5bf15cca-ff24-4f3c-9607-5f6070a9770d)
+
+
+---
+
+## 🛠️ Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### 📦 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view in browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### `npm run build`
 
-### `npm test`
+Builds the app for production to the `build/` folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### `npm run transpile-ved`
 
-### `npm run build`
+Custom script to transpile `.ved` Hindi DSL files into React JSX.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧠 Why This Project?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+VedReact is ideal for:
+- 👨‍🏫 Educators introducing coding to Hindi-speaking students
+- 👩‍💻 Beginners comfortable in Hindi
+- 🇮🇳 Developers interested in regional tech innovation
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Folder Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
