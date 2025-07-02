@@ -1,0 +1,56 @@
+import React, { useState } from 'react';
+import { Button, Typography, Paper, Stack } from '@mui/material';
+
+function गणक() {
+  const [गणना, गणना_स्थापय] = useState(0);
+
+  const वर्धय = () => {
+    गणना_स्थापय(गणना + 1);
+  };
+
+  const न्यूनय = () => {
+    if (गणना > 0) {
+      गणना_स्थापय(गणना - 1);
+    }
+  };
+
+  const पुनःस्थापय = () => {
+    गणना_स्थापय(0);
+  };
+
+  return (
+    <Paper
+      elevation={6}
+      sx={{
+        padding: 4,
+        maxWidth: 400,
+        margin: '100px auto',
+        textAlign: 'center',
+        fontFamily: "'Noto Sans Devanagari', sans-serif",
+      }}
+    >
+      <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>
+        गणक: {गणना}
+      </Typography>
+
+      <Stack spacing={2} direction="row" justifyContent="center" sx={{ marginTop: 2 }}>
+        <Button variant="contained" color="primary" onClick={वर्धय}>
+          ➕ वर्धय
+        </Button>
+        <Button
+          variant="contained"
+          color="error"
+          onClick={न्यूनय}
+          disabled={गणना === 0}
+        >
+          ➖ न्यूनय
+        </Button>
+        <Button variant="contained" color="warning" onClick={पुनःस्थापय}>
+          🔄 पुनःस्थापय
+        </Button>
+      </Stack>
+    </Paper>
+  );
+}
+
+export default गणक;
